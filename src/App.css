@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  width: 50%;
+  height: 30px;
+  background-color: #e0e0df;
+  margin: 20px auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #76c7c0;
+  transition: width 0.3s ease-in-out;
+}
+
+.history-buttons {
+  margin-top: 20px;
+}
+
+.history-buttons button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
